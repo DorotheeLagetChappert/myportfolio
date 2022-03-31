@@ -1,0 +1,51 @@
+.HomePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/backgroundHome.jpg);
+}
+
+
+.hero-text{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    span{
+        color: #037FFF;
+    }
+    @media screen and (max-width: 640px){
+        font-size: 2.4rem;
+    }
+}
+
+.h-sub-text{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    .icon-holder{
+        margin-right: 1rem;
+        .icon{
+            font-size: 2.8rem;
+            color: #a4acc4;
+            transition: all .4s ease-in-out;
+        }
+        .lk:hover{
+            color: blue;
+        }
+        .gh:hover{
+            color: rgba(212, 45, 212, 0.788);
+        }
+    }
+}
